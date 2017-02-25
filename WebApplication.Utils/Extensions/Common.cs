@@ -10,7 +10,7 @@ namespace WebApplication.Utils.Extensions
             {
                 s = $"/{s}";
             }
-            return s;
+            return s; 
         }
 
         public static void ThrowIfNull(this object o, string msg)
