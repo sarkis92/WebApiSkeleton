@@ -11,7 +11,7 @@ namespace WebApplication.Controllers.V1
         {
             service.ThrowIfNull(nameof(service));
 
-            this._service = service;
+            _service = service;
         }
 
         public IHttpActionResult Get()
